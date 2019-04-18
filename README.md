@@ -1,3 +1,3 @@
-# DeepLearning
+# Facial Keypoint Detection
 
-Repository to hold Deep Learning projects
+Uses advanced Deep Learning techniques such as Transfer Learning and Ensemble methods to detect facila keypoints (using Kaggle dataset).  One of the key challenges was limited availability of data for building our DL model.  So, we applied image augmentation techniques such as rotation, reflection, horizontal flipping, histogram equalization, blurring etc. to get additional training data.  We experimented on various architectures including AlexNet, VGGNet as well as tried different activation functions such as ReLu, LeakyReLU.  With hyperparameter tuning, transfer learning and ensemble approach, our results scored an equivalent of rank #16 on Kaggle's private leaderboard.
